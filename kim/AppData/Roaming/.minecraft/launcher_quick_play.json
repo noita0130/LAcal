@@ -1,0 +1,123 @@
+{
+  "quickPlayData" : {
+    "2535460213775678" : 
+    [
+      {
+        "epochLastPlayedTimeMs" : 1718287568000,
+        "id" : "localhost",
+        "javaInstance" : {
+          "configId" : "Iris & Sodium for 1.20.4",
+          "game" : {
+            "gamemode" : "creative",
+            "type" : "multiplayer"
+          }
+        },
+        "name" : "Minecraft \uc11c\ubc84",
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1716614442542,
+        "id" : "212d0617763137fe7fac256ebd35302a",
+        "javaInstance" : {
+          "configId" : "212d0617763137fe7fac256ebd35302a"
+        },
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1716369016335,
+        "id" : "Iris & Sodium for 1.20.4",
+        "javaInstance" : {
+          "configId" : "Iris & Sodium for 1.20.4"
+        },
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1716122760000,
+        "id" : "localhost",
+        "javaInstance" : {
+          "configId" : "Iris & Sodium for 1.20.4",
+          "game" : {
+            "gamemode" : "survival",
+            "type" : "multiplayer"
+          }
+        },
+        "name" : "Minecraft \uc11c\ubc84",
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1715585448000,
+        "id" : "localhost",
+        "javaInstance" : {
+          "configId" : "OptiFine",
+          "game" : {
+            "gamemode" : "survival",
+            "type" : "multiplayer"
+          }
+        },
+        "name" : "Minecraft \uc11c\ubc84",
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1715565116000,
+        "id" : "localhost",
+        "javaInstance" : {
+          "configId" : "d41f77131aa64a3cb6e45310ce1732d7",
+          "game" : {
+            "gamemode" : "survival",
+            "type" : "multiplayer"
+          }
+        },
+        "name" : "Minecraft \uc11c\ubc84",
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1715550372000,
+        "id" : "shard-7924.ownserver.kumassy.com:14450",
+        "javaInstance" : {
+          "configId" : "d41f77131aa64a3cb6e45310ce1732d7",
+          "game" : {
+            "gamemode" : "survival",
+            "type" : "multiplayer"
+          }
+        },
+        "name" : "Minecraft \uc11c\ubc84",
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1715544267000,
+        "id" : "shard-7924.ownserver.kumassy.com:12181",
+        "javaInstance" : {
+          "configId" : "d41f77131aa64a3cb6e45310ce1732d7",
+          "game" : {
+            "gamemode" : "survival",
+            "type" : "multiplayer"
+          }
+        },
+        "name" : "Minecraft \uc11c\ubc84",
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1715539503161,
+        "id" : "d41f77131aa64a3cb6e45310ce1732d7",
+        "javaInstance" : {
+          "configId" : "d41f77131aa64a3cb6e45310ce1732d7"
+        },
+        "source" : "Java"
+      },
+      {
+        "epochLastPlayedTimeMs" : 1715527281000,
+        "id" : "localhost",
+        "javaInstance" : {
+          "configId" : "d41f77131aa64a3cb6e45310ce1732d7",
+          "game" : {
+            "gamemode" : "creative",
+            "type" : "multiplayer"
+          }
+        },
+        "name" : "Minecraft \uc11c\ubc84",
+        "source" : "Java"
+      }
+    ]
+  },
+  "version" : 2
+}

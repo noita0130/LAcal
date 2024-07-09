@@ -1,0 +1,10 @@
+Removed world/DIM-1/data/raids.dat: not used
+Removed world/DIM-1/poi/r.-1.-1.mca: not used
+Removed world/DIM-1/poi/r.-1.0.mca: not used
+Removed world/DIM-1/poi/r.0.-1.mca: not used
+Removed world/DIM-1/poi/r.0.0.mca: not used
+Removed world/gc-logs/gc-20200617_2334.log: not used
+Removed world/gc-logs/gc-20200618_0003.log: not used
+Removed world/gc-logs/gc-20200618_0155.log: not used
+Removed world/playerdata/290b065d-da58-41f0-94b2-312c306c5e35.dat_old: not used
+Validated 152 files, 143 accepted, 9 rejected.

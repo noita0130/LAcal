@@ -1,0 +1,35 @@
+[
+  {
+    "filters": [
+      {
+        "regex": "http://[^\\.]+.turbobit\\.net(:[0-9]{1,5})?/download\\.php\\?name=.*"
+      }
+    ],
+    "domain": "turbobit.net"
+  },
+  {
+    "filters": [
+      {
+        "regex": "http://[^\\.]+.unknowncheats\\.me/forum/downloads\\.php\\?.*&act=down.*&actionhash=.*"
+      }
+    ],
+    "domain": "unknowncheats.me"
+  },
+  {
+    "filters": [
+      {
+        "regex": "http://[^\\.]+.bitshare\\.com(:[0-9]{1,5})?/download\\.php\\?d=.*"
+      }
+    ],
+    "domain": "bitshare.com"
+  },
+  {
+    "filters": [
+      {
+        "regex": "http://downloads\\.ziddu\\.com/downloadfiles/\\d+/.*",
+        "method": "post"
+      }
+    ],
+    "domain": "ziddu.com"
+  }
+]

@@ -1,0 +1,133 @@
+[
+    {
+        "name": "Android",
+        "useragents": [
+            {
+                "name": "Nexus 7 (Tablet)",
+                "useragent": "Mozilla/5.0 (Linux; Android 4.1.1; Nexus 7 Build/JRO03D) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.166  Safari/535.19"
+            },
+            {
+                "name": "Samsung Galaxy S3",
+                "useragent": "Mozilla/5.0 (Linux; U; Android 4.0.4; en-gb; GT-I9300 Build/IMM76D) AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30"
+            },
+            {
+                "name": "Samsung Galaxy Tab",
+                "useragent": "Mozilla/5.0 (Linux; U; Android 2.2; en-gb; GT-P1000 Build/FROYO) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1"
+            }
+        ]
+    },
+    {
+        "name": "Firefox",
+        "useragents": [
+            {
+                "name": "Firefox on Android Mobile",
+                "useragent": "Mozilla/5.0 (Android; Mobile; rv:14.0) Gecko/14.0 Firefox/14.0"
+            },
+            {
+                "name": "Firefox on Mac",
+                "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0"
+            },
+            {
+                "name": "Firefox on Ubuntu",
+                "useragent": "Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:21.0) Gecko/20130331 Firefox/21.0"
+            },
+            {
+                "name": "Firefox on Windows",
+                "useragent": "Mozilla/5.0 (Windows NT 6.2; WOW64; rv:21.0) Gecko/20100101 Firefox/21.0"
+            }
+        ]
+    },
+    {
+        "name": "Chrome",
+        "useragents": [
+            {
+                "name": "Chrome on Android Mobile",
+                "useragent": "Mozilla/5.0 (Linux; Android 4.0.4; Galaxy Nexus Build/IMM76B) AppleWebKit/535.19 (KHTML, like Gecko) Chrome/18.0.1025.133 Mobile Safari/535.19"
+            },
+            {
+                "name": "Chrome on Mac",
+                "useragent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_7_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.93 Safari/537.36"
+            },
+            {
+                "name": "Chrome on Ubuntu",
+                "useragent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.11 (KHTML, like Gecko) Ubuntu/11.10 Chromium/27.0.1453.93 Chrome/27.0.1453.93 Safari/537.36"
+            },
+            {
+                "name": "Chrome on Windows",
+                "useragent": "Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.94 Safari/537.36"
+            },
+            {
+                "name": "Chrome on iPhone",
+                "useragent": "Mozilla/5.0 (iPhone; CPU iPhone OS 6_1_4 like Mac OS X) AppleWebKit/536.26 (KHTML, like Gecko) CriOS/27.0.1453.10 Mobile/10B350 Safari/8536.25"
+            }
+        ]
+    },
+    {
+        "name": "Internet Explorer",
+        "useragents": [
+            {
+                "name": "Internet Explorer 11",
+                "useragent": "Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv 11.0) like Gecko"
+            },
+            {
+                "name": "Internet Explorer 10",
+                "useragent": "Mozilla/5.0 (compatible; WOW64; MSIE 10.0; Windows NT 6.2)"
+            },
+            {
+                "name": "Internet Explorer 6",
+                "useragent": "Mozilla/4.0 (Windows; MSIE 6.0; Windows NT 5.2)"
+            },
+            {
+                "name": "Internet Explorer 9",
+                "useragent": "Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)"
+            }
+        ]
+    },
+    {
+        "name": "Opera",
+        "useragents": [
+            {
+                "name": "Opera on Mac",
+                "useragent": "Opera/9.80 (Macintosh; Intel Mac OS X 10.6.8; U; en) Presto/2.9.168 Version/11.52"
+            },
+            {
+                "name": "Opera on Windows",
+                "useragent": "Opera/9.80 (Windows NT 6.1; WOW64; U; en) Presto/2.10.229 Version/11.62"
+            }
+        ]
+    },
+    {
+        "name": "Safari",
+        "useragents": [
+            {
+                "name": "Safari on Mac",
+                "useragent": "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_6; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27"
+            },
+            {
+                "name": "Safari on iPad",
+                "useragent": "Mozilla/5.0 (iPad; CPU OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3"
+            },
+            {
+                "name": "Firefox on iPhone",
+                "useragent": "Mozilla/5.0 (iPhone; CPU iPhone OS 5_0 like Mac OS X) AppleWebKit/534.46 (KHTML, like Gecko) Version/5.1 Mobile/9A334 Safari/7534.48.3"
+            },
+            {
+                "name": "Safari on Windows",
+                "useragent": "Mozilla/5.0 (Windows; U; Windows NT 6.1; en-US) AppleWebKit/533.20.25 (KHTML, like Gecko) Version/5.0.4 Safari/533.20.27"
+            }
+        ]
+    },
+    {
+        "name": "iOS",
+        "useragents": [
+            {
+                "name": "iPad",
+                "useragent": "Mozilla/5.0 (iPad; CPU OS 8_1_3 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12B466 Safari/600.1.4"
+            },
+            {
+                "name": "iPhone",
+                "useragent": "Mozilla/5.0 (iPhone; CPU iPhone OS 8_0_2 like Mac OS X) AppleWebKit/600.1.4 (KHTML, like Gecko) Version/8.0 Mobile/12A366 Safari/600.1.4"
+            }
+        ]
+    }
+]
