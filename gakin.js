@@ -21,12 +21,19 @@
   let cnt_engravings;
 
   for(var i=0; i<cnt_char; i++){
-
     arr_profiles = get_profiles(apiKey, char_name[i]);
-    console.log(arr_profiles);
-    sheet.getRange(row, 3).setValue(arr_profiles[0]);    
-    sheet.getRange(row, 4).setValue(arr_profiles[1]);
-    sheet.getRange(row, 5).setValue(arr_profiles[2]);
+    if (arr_profiles.length == 1){
+      console.log(arr_profiles);
+      sheet.getRange(row, 3).setValue("-");    
+      sheet.getRange(row, 4).setValue(arr_profiles[0]);
+      sheet.getRange(row, 5).setValue("-");
+    }
+    else if (arr_profiles.length == 3){
+      sheet.getRange(row, 3).setValue(arr_profiles[0]);    
+      sheet.getRange(row, 4).setValue(arr_profiles[1]);
+      sheet.getRange(row, 5).setValue(arr_profiles[2]);
+    }
+    
   /**
     arr_engravings = get_engravings(apiKey, char_name[i])
 
@@ -199,10 +206,16 @@ function get_profiles(apiKey, name){
   };
 
   let response = UrlFetchApp.fetch("https://developer-lostark.game.onstove.com/armories/characters/"+name+"/profiles", options);
-
-    response = JSON.parse(response.getContentText());
+      response = JSON.parse(response.getContentText());
+    if (response == null){
+      return ["접속시 갱신"]
+    }
+    else{
+      return [response.ItemMaxLevel, response.CharacterClassName, response.GuildName]
+    }
+    
    
-    return [response.ItemMaxLevel, response.CharacterClassName, response.GuildName]
+
 }
 
 
