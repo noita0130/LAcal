@@ -207,7 +207,8 @@ function get_profiles(apiKey, name){
 
   let response = UrlFetchApp.fetch("https://developer-lostark.game.onstove.com/armories/characters/"+name+"/profiles", options);
       response = JSON.parse(response.getContentText());
-    if (response == null){
+      console.log(response)
+    if (response == null || response.CharacterLevel == 0){
       return ["접속시 갱신"]
     }
     else{
@@ -289,9 +290,9 @@ function get_engravings(apiKey, name){
   "회귀":"회귀",
   "질풍노도":"질풍",
   "이슬비":"이슬비",
-}
+  }
   let res =[];
-  if(response == null || typeof(response.Effects) == 'undefined' ){
+  if(response == null || response.Effects == null || typeof(response.Effects) == 'undefined' ){
     res.push("-")
   }
   else{    
